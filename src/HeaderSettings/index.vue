@@ -49,6 +49,8 @@ import groupBy from 'lodash/groupBy'
 import keyGen from '../_utils/keyGen'
 import replaceWith from '../_utils/replaceWith'
 import { parseStr, stringify, saveToLS, rmFromLS, getFromLS } from '../_utils/localstorage'
+import $ from 'jquery'
+
 export default {
   name: 'HeaderSettings',
   components: { ColumnGroup },
